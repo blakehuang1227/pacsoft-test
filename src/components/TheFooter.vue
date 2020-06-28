@@ -110,7 +110,7 @@ $base-font-size: 16px !default;
   justify-content: center;
   align-content: center;
   height: 100%;
-  padding: 20px 5%;
+  padding: 20px 10%;
 }
 
 .copyright {

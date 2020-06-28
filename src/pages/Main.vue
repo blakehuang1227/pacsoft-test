@@ -245,7 +245,7 @@ $base-font-size: 16px !default;
 }
 
 .block {
-  padding: 0px 10%;
+  padding: 0px 15%;
 }
 .flex-wrap {
   display: flex;
@@ -301,7 +301,7 @@ $base-font-size: 16px !default;
   }
 
   .left-content {
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     // justify-content: first baseline;
@@ -311,6 +311,7 @@ $base-font-size: 16px !default;
       height: 90%;
       width: 80%;
       box-shadow: 1px 13px 20px 2px #c3c3c3;
+      max-width: 320px;
 
       .msg {
         text-align: center;
@@ -326,7 +327,7 @@ $base-font-size: 16px !default;
     }
   }
   .right-content {
-    width: 64%;
+    width: 70%;
     .name {
       text-align: left;
       font-weight: bold;
@@ -340,7 +341,7 @@ $base-font-size: 16px !default;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: flex-start;
-      padding: 0 4%;
+      padding: 0 6%;
 
       > div {
         display: flex;
@@ -405,7 +406,7 @@ $base-font-size: 16px !default;
   .card {
     height: 60%;
     width: 100%;
-    padding: 0 2%;
+    padding: 0 4%;
     font-size: rem(22px);
     text-align: left;
     box-shadow: 1px 4px 10px 0px #dedede;
