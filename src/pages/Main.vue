@@ -49,13 +49,13 @@
               <span class="info">
                 <div class="flex-row">
                   <div class="round-img">
-                    <img src="/static/github.png" />
+                    <img src="@/assets/github.png" />
                   </div>
                   <div class="round-img">
-                    <img src="/static/stackover.png" />
+                    <img src="@/assets/stackover.png" />
                   </div>
                   <div class="round-img">
-                    <img src="/static/linked.png" />
+                    <img src="@/assets/linked.png" />
                   </div>
                 </div>
               </span>
